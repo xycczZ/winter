@@ -4,13 +4,13 @@
 
 use Swoole\Coroutine;
 use Symfony\Component\Console\Application;
-use Winter\Core\Commands\Server;
+use Xycc\Winter\Core\Commands\Server;
 
 require __DIR__ . '/vendor/autoload.php';
 
 Coroutine::set(['hook_flags' => SWOOLE_HOOK_ALL]);
 
-$application = new \Winter\Container\Application();
+$application = new \Xycc\Winter\Container\Application();
 
 $application->start(__DIR__);
 
