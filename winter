@@ -10,7 +10,7 @@ require __DIR__ . '/vendor/autoload.php';
 
 Coroutine::set(['hook_flags' => SWOOLE_HOOK_ALL]);
 
-$application = new \Xycc\Winter\Container\Application();
+$application = new \App\Application();
 
 $application->start(__DIR__);
 

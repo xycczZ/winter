@@ -5,8 +5,9 @@ namespace App;
 
 
 use App\Bootstraps\AppBootstrap;
+use Xycc\Winter\Container\Application as Container;
 
-class Application extends \Winter\Container\Application
+class Application extends Container
 {
     protected array $boots = [
         AppBootstrap::class,

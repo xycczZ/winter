@@ -4,8 +4,8 @@ declare(strict_types=1);
 namespace App\Bootstraps;
 
 
-use Winter\Contract\Bootstrap;
-use Winter\Contract\Container\ContainerContract;
+use Xycc\Winter\Contract\Bootstrap;
+use Xycc\Winter\Contract\Container\ContainerContract;
 
 class AppBootstrap extends Bootstrap
 {
