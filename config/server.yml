@@ -10,7 +10,7 @@ http:
     task_worker_num: 8
     #    daemonize: true
     #    pid_file: ${app.runtime}/winter.pid
-    log_file: ${app.runtime}/logs/swoole_error.log
+#    log_file: ${app.runtime}/logs/swoole_error.log
     log_level: 2 # 0 - 6
     log_rotation: '#{SWOOLE_LOG_ROTATION_HOURLY}'
     log_date_format: '%Y-%m-%d %H:%M:%S'
