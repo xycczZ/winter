@@ -1,2 +1,3 @@
 name: App
-disabled-middlewares: [ ]
+disabled-middlewares:
+# - 'Xycc\Winter\Http\Middleware\LogEndMiddleware'
