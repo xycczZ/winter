@@ -4,7 +4,7 @@
 
 use Swoole\Coroutine;
 use Symfony\Component\Console\Application;
-use Xycc\Winter\Core\Commands\Server;
+use Xycc\Winter\Core\Commands\ServerCommand;
 
 require __DIR__ . '/vendor/autoload.php';
 
@@ -15,6 +15,6 @@ $application = new \App\Application();
 $application->start(__DIR__);
 
 $command = new Application();
-$command->add(new Server($application));
+$command->add(new ServerCommand($application));
 $command->setAutoExit(false);
 return $command->run();

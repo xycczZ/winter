@@ -2,6 +2,7 @@
     "name": "xycc/winter",
     "description": "winter",
     "type": "project",
+    "license": "MIT",
     "authors": [
         {
             "name": "xycc",
